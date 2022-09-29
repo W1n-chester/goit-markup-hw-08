@@ -1,0 +1,38 @@
+.operation {
+  display: none;
+  @media screen and (min-width:1200px) {
+    display: block;
+    padding-bottom: 94px;
+  }
+}
+.operation__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.operation__list {
+  margin-top: 50px;
+}
+.operation__item {
+  position: relative;
+}
+.operation__caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ligh-txt-cl);
+  background: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

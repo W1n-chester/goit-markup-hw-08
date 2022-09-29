@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--dark-bg-cl);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__group {
+  display: flex;
+  align-items: baseline;
+ 
+}
+.footer__contacts{
+  margin-right: 70px;
+}
+.footer__text {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--ligh-txt-cl);
+}
