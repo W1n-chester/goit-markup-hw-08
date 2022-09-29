@@ -1,15 +1,21 @@
 .contacts {
-  display: flex;
-  gap: 50px;
+  display: block;
+  @media screen and (min-width:1200px) {
+    
+    display: flex;
+    gap: 50px;
+  }
 }
+
 .contacts__link {
-  font-weight: 500;
+  display: none;
+  @media screen and (min-width:768px) {
+    font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: var(--dark-txt-cl);
   fill: var(--icons-cl);
   display: flex;
@@ -23,5 +29,10 @@
         color: var(--accent-txt-cl);
         fill: var(--accent-bg-cl);
 }
+  }
+  @media screen and (min-width:1200px) {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  }
 }
 
