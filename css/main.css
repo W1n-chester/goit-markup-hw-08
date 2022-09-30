@@ -559,36 +559,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-@media screen and (min-width: 1200px) {
-  .footer__group {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-  }
-}
 
 .footer__contacts {
-  margin-left: 76px;
-}
-@media screen and (min-width: 1200px) {
-  .footer__contacts {
-    margin-left: 0;
-    margin-right: 70px;
-  }
-}
-
-.footer__social {
-  margin-left: 165px;
-}
-@media screen and (min-width: 1200px) {
-  .footer__social {
-    margin-left: 0;
-  }
+  margin-right: 70px;
 }
 
 .footer__text {
@@ -799,36 +776,17 @@ body {
 .newsletter-form {
   display: block;
   height: 86px;
-  margin-top: 60px;
-  margin-right: auto;
   margin-left: auto;
-}
-@media screen and (min-width: 1200px) {
-  .newsletter-form {
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: auto;
-  }
 }
 
 .newsletter-form__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--ligh-txt-cl);
-}
-@media screen and (min-width: 1200px) {
-  .newsletter-form__title {
-    display: block;
-  }
 }
 
 .newsletter-form__form {
@@ -837,18 +795,12 @@ body {
   display: flex;
   margin-top: 20px;
 }
-@media screen and (max-width: 1199px) {
-  .newsletter-form__form {
-    width: 450px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
 
 .newsletter-form__input {
   display: block;
-  width: 450px;
+  width: 358px;
   height: 50px;
+  margin-right: 12px;
   padding: 15px 16px;
   color: var(--ligh-txt-cl);
   background-color: inherit;
@@ -861,12 +813,6 @@ body {
   transition: border-color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
-}
-@media screen and (min-width: 1200px) {
-  .newsletter-form__input {
-    width: 358px;
-    margin-right: 12px;
-  }
 }
 
 .newsletter-form__input:focus {
