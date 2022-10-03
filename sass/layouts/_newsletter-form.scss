@@ -1,10 +1,22 @@
 .newsletter-form {
-  display: block;
+  margin-top: 60px;
+  text-align: center;
+  
+@media screen and (min-width: 768px) {
+  width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   @media screen and (min-width: 1200px) {
+    width: 570px;
+    height: 86px;
+     margin-top: 0;
+     margin-right: 0;
+  }
+  
 
-  height: 86px;
   
   
-  margin-left: auto;
 
 }
 .newsletter-form__title {
@@ -19,16 +31,24 @@
 }
 
 .newsletter-form__form {
-  display: flex;
+
+  display: block;
   margin-top: 20px;
+  @media screen and (min-width: 768px) {
+    
+   }
+   @media screen and (min-width: 1200px) {
+    
+     display: flex;
+   }
 }
 
 .newsletter-form__input {
   display: block;
 
-  width: 358px;
+  width: 100%;
   height: 50px;
-  margin-right: 12px;
+  
   padding: 15px 16px;
   color: var(--ligh-txt-cl);
   background-color: inherit;
@@ -38,6 +58,10 @@
   outline: transparent;
   transition: border-color;
   transition-duration: 250ms;
+  @media screen and (min-width:1200px) {
+    width: 358px;
+    margin-right: 12px;
+  }
 }
 .newsletter-form__input:focus {
   border-color: var(--accent-bg-cl);
