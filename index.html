@@ -20,11 +20,10 @@
   <body>
     <header class="header">
       <div class="header__container container">
-
         <a class="logo link" href="index.html" lang="en"><span class="logo__first-part">Web</span>Studio</a>
         <button type="button" class="mobile-menu__button-open" data-mobile-menu-open>
           <svg width="40" height="40 ">
-          <use href="./img/icons.svg#icon-menu_40px" ></use>
+            <use href="./img/icons.svg#icon-menu_40px"></use>
           </svg>
         </button>
 
@@ -120,20 +119,29 @@
           <h2 class="operation__title">Чим ми займаємося</h2>
           <ul class="operation__list list set-flex">
             <li class="operation__item set-flex-item">
-              <img
-                src="./img/img.jpg"
-                alt="людина набирає код з клавіатури, перед нею монітор і планшет, поруч лежить шпаргалка"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source media="(min-width:1200px )" srcset="./img/img-op1-@1x.jpg 1x, ./img/img-op1-@2x.jpg 2x" />
+                <img
+                  src="./img/img-op1-@1x.jpg"
+                  alt="людина набирає код з клавіатури, перед нею монітор і планшет, поруч лежить шпаргалка"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <p class="operation__caption text">Десктопні додатки</p>
             </li>
             <li class="operation__item set-flex-item">
-              <img src="./img/img1.jpg" alt="людина працює на ноутбуці, тримаючи смартфон у руці" width="370" height="294" />
+              <picture>
+                <source media="(min-width:1200px )" srcset="./img/img-op2-@1x.jpg 1x, ./img/img-op2-@2x.jpg 2x" />
+                <img src="./img/img-op2-@1x.jpg" alt="людина працює на ноутбуці, тримаючи смартфон у руці" width="370" height="294" />
+              </picture>
               <p class="operation__caption text">Мобільні додатки</p>
             </li>
             <li class="operation__item set-flex-item">
-              <img src="./img/img2.jpg" alt="людина працює з палітрою кольорів у графічному планшеті" width="370" height="294" />
+              <picture>
+                <source media="(min-width:1200px )" srcset="./img/img-op3-@1x.jpg 1x, ./img/img-op3-@2x.jpg 2x" />
+                <img src="./img/img-op3-@1x.jpg" alt="людина працює з палітрою кольорів у графічному планшеті" width="370" height="294" />
+              </picture>
               <p class="operation__caption text">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -145,7 +153,12 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list set-flex">
             <li class="team__item set-flex-item">
-              <img src="./img/team/man_in_brown.jpg" alt="Чоловік у коричневій сорочці, в окулярах" />
+              <picture>
+                <source media="(min-width:1200px )" srcset="./img/team/team1-ds-@1x.jpg 1x, ./img/team/team1-ds-@2x.jpg 2x" />
+                <source media="(min-width:768px )" srcset="./img/team/team1-tb-@1x.jpg 1x, ./img/team/team1-tb-@2x.jpg 2x" />
+                <source media="(max-width:767px )" srcset="./img/team/team1-mb-@1x.jpg 1x, ./img/team/team1-mb-@2x.jpg 2x" />
+                <img src="./img/team/team1-ds-@1x.jpg" alt="Чоловік у коричневій сорочці, в окулярах" />
+              </picture>
               <div class="team__card">
                 <h3 class="team__subtitle">Ігор Дем'яненко</h3>
                 <p class="team__text text" lang="en">Product Designer</p>
@@ -182,7 +195,13 @@
               </div>
             </li>
             <li class="team__item set-flex-item">
-              <img src="./img/team/woman.jpg" alt="Жінка блондинка, у чорному піджаку" />
+              <picture>
+                <source media="(min-width:1200px )" srcset="./img/team/team2-ds-@1x.jpg 1x, ./img/team/team2-ds-@2x.jpg 2x" />
+                <source media="(min-width:768px )" srcset="./img/team/team2-tb-@1x.jpg 1x, ./img/team/team2-tb-@2x.jpg 2x" />
+                <source media="(max-width:767px )" srcset="./img/team/team2-mb-@1x.jpg 1x, ./img/team/team2-mb-@2x.jpg 2x" />
+
+                <img src="./img/team/team2-ds-@1x.jpg" alt="Жінка блондинка, у чорному піджаку" />
+              </picture>
               <div class="team__card">
                 <h3 class="team__subtitle">Ольга Рєпіна</h3>
                 <p class="team__text text" lang="en">Frontend Developer</p>
@@ -219,7 +238,13 @@
               </div>
             </li>
             <li class="team__item set-flex-item">
-              <img src="./img/team/man_in_white.jpg" alt="Чоловік у білій сорочці" />
+              <picture>
+                <source media="(min-width:1200px )" srcset="./img/team/team3-ds-@1x.jpg 1x, ./img/team/team3-ds-@2x.jpg 2x" />
+                <source media="(min-width:768px )" srcset="./img/team/team3-tb-@1x.jpg 1x, ./img/team/team3-tb-@2x.jpg 2x" />
+                <source media="(max-width:767px )" srcset="./img/team/team3-mb-@1x.jpg 1x, ./img/team/team3-mb-@2x.jpg 2x" />
+
+                <img src="./img/team/team3-ds-@1x.jpg" alt="Чоловік у білій сорочці" />
+              </picture>
               <div class="team__card">
                 <h3 class="team__subtitle">Микола Тарасов</h3>
                 <p class="team__text text" lang="en">Marketing</p>
@@ -256,7 +281,13 @@
               </div>
             </li>
             <li class="team__item set-flex-item">
-              <img src="./img/team/man_in_black.jpg" alt="Чоловік у чорній сорочці, в окулярах" />
+              <picture>
+                <source media="(min-width:1200px )" srcset="./img/team/team4-ds-@1x.jpg 1x, ./img/team/team4-ds-@2x.jpg 2x" />
+                <source media="(min-width:768px )" srcset="./img/team/team4-tb-@1x.jpg 1x, ./img/team/team4-tb-@2x.jpg 2x" />
+                <source media="(max-width:767px )" srcset="./img/team/team4-mb-@1x.jpg 1x, ./img/team/team4-mb-@2x.jpg 2x" />
+
+                <img src="./img/team/team4-ds-@1x.jpg" alt="Чоловік у чорній сорочці, в окулярах" />
+              </picture>
               <div class="team__card">
                 <h3 class="team__subtitle">Михайло Єрмаков</h3>
                 <p class="team__text text" lang="en">UI Designer</p>
@@ -402,7 +433,7 @@
       </div>
     </footer>
     <!-- MODAL WINDOW -->
-<!-- register-form -->
+    <!-- register-form -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal__button" type="button" data-modal-close>
@@ -445,13 +476,15 @@
               <use class="icon-check" href="./img/icons.svg#icon-check"></use>
               <use class="icon-uncheck" href="./img/icons.svg#icon-uncheck"></use>
             </svg>
-            <span class="register-form__desc text">Погоджуюся з розсилкою та приймаю <a class="register-form__link" href="#">Умови договору</a> </span>
+            <span class="register-form__desc text"
+              >Погоджуюся з розсилкою та приймаю <a class="register-form__link" href="#">Умови договору</a>
+            </span>
           </label>
           <button class="form-button" type="submit">Відправити</button>
         </form>
       </div>
     </div>
-<!-- mobile-menu -->
+    <!-- mobile-menu -->
     <div class="backdrop is-hidden" data-mobile-menu>
       <div class="mobile-menu">
         <button class="mobile-menu__button-close" type="button" data-mobile-menu-close>
@@ -459,10 +492,10 @@
             <use href="./img/icons.svg#icon-Vector"></use>
           </svg>
         </button>
-        <ul  class=" mobile-menu__nav list">
-          <li class="mobile-menu__nav-item current"><a class=" link" href="./index.html">Студія</a> </li>
-          <li class="mobile-menu__nav-item"><a class=" link" href="./portfolio.html">Портфоліо</a> </li>
-          <li class="mobile-menu__nav-item"><a class=" link" href="#">Контакти</a> </li>
+        <ul class="mobile-menu__nav list">
+          <li class="mobile-menu__nav-item current"><a class="link" href="./index.html">Студія</a></li>
+          <li class="mobile-menu__nav-item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
+          <li class="mobile-menu__nav-item"><a class="link" href="#">Контакти</a></li>
         </ul>
         <div class="mobile-menu__group">
           <ul class="mobile-menu__contact list">
