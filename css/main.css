@@ -1350,9 +1350,15 @@ body {
 
 .card__overlay-text {
   color: var(--ligh-txt-cl);
-  font-size: 18px;
-  line-height: 1.5555555556;
+  font-size: 14px;
+  line-height: 1.5714285714;
   letter-spacing: 0.03em;
+}
+@media screen and (min-width: 450px) {
+  .card__overlay-text {
+    font-size: 18px;
+    line-height: 1.5555555556;
+  }
 }
 
 .card__link {

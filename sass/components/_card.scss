@@ -26,9 +26,14 @@
 
 .card__overlay-text {
   color: var(--ligh-txt-cl);
-  font-size: 18px;
-  line-height: calc(28 / 18);
+  font-size: 14px;
+  line-height: calc(22 / 14);
   letter-spacing: 0.03em;
+  @media screen and(min-width:450px) {
+    font-size: 18px;
+  line-height: calc(28 / 18)
+  }
+
 }
 .card__link {
   display: flex;
