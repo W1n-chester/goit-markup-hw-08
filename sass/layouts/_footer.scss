@@ -18,30 +18,34 @@
    @media screen and (min-width: 768px) {
    display: flex;
    align-items: baseline;
+   justify-content: space-between;
   }
 }
 .footer__contacts {
   text-align: center;
   @media screen and (min-width: 768px) {
-   margin-left: 61px;
+   padding-left: 61px;
   }
   @media screen and (min-width: 1200px) {
-    margin-left: 0;
+    padding-left: 0;
     margin-right: 70px;
+    text-align: left;
 
   }
 }
 .footer__social {
-  width: 206px;
+  // width: 206px;
   margin: 60px auto 0 auto;
   
   text-align: center;
   @media screen and (min-width: 768px) {
-    margin: 0 74px 0 auto;
+    margin: 0;
+   padding-right: 74px; 
     
   }
   @media screen and (min-width: 1200px) {
-    margin-right:0;
+    padding-right: 0;
+     text-align: left;
 
   }
 }

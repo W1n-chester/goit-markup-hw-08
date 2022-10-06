@@ -7,6 +7,21 @@
   }
 }
 
+.contacts__link--tablet-top{
+ @media screen and (min-width:768px) {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  }
+
+}
+.contacts__link--tablet-bottom{
+ @media screen and (min-width:768px) {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  }
+  
+}
+
 .contacts__link {
   display: none;
   @media screen and (min-width:768px) {
@@ -14,8 +29,8 @@
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  // padding-top: 5px;
+  // padding-bottom: 5px;
   color: var(--dark-txt-cl);
   fill: var(--icons-cl);
   display: flex;

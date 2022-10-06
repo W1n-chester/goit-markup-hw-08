@@ -28,6 +28,10 @@
   text-transform: uppercase;
 
   color: var(--ligh-txt-cl);
+  @media screen and (min-width: 1200px) {
+    
+    text-align: left;
+   }
 }
 
 .newsletter-form__form {
