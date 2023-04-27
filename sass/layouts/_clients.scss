@@ -22,11 +22,11 @@
   margin-top: 30px;
   --items: 2;
 
-  @media screen and( min-width:768px) {
+  @media screen and ( min-width:768px) {
     --items: 3;
   }
 
-  @media screen and( min-width:1200px) {
+  @media screen and ( min-width:1200px) {
     margin-top: 50px;
     --items: 6;
   }
